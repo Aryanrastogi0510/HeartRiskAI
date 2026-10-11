@@ -1,0 +1,47 @@
+{
+  "selected_features": [
+    "age",
+    "cigsPerDay",
+    "sysBP",
+    "glucose",
+    "male",
+    "BPMeds"
+  ],
+  "mandatory_features": [
+    "age",
+    "male"
+  ],
+  "all_features": [
+    "age",
+    "cigsPerDay",
+    "totChol",
+    "sysBP",
+    "diaBP",
+    "BMI",
+    "heartRate",
+    "glucose",
+    "male",
+    "education",
+    "currentSmoker",
+    "BPMeds",
+    "prevalentStroke",
+    "prevalentHyp",
+    "diabetes"
+  ],
+  "best_fitness": 0.7273,
+  "best_cv_roc_auc": 0.7333,
+  "feature_count": 6,
+  "total_feature_count": 15,
+  "reduction_percentage": 60.0,
+  "hyperparameters": {
+    "pop_size": 30,
+    "n_generations": 20,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.08,
+    "tournament_size": 3,
+    "n_elites": 2,
+    "parsimony_penalty": 0.015,
+    "cv_folds": 5,
+    "random_state": 42
+  }
+}

@@ -1,0 +1,9 @@
+experiment,model,features_count,accuracy,precision,recall_sensitivity,specificity,f1_score,roc_auc,pr_auc,brier_score,true_negatives,false_positives,false_negatives,true_positives,confusion_matrix,training_time_sec
+Experiment A - All Features,Logistic Regression,15,0.6663,0.2668,0.6854,0.6628,0.3841,0.7297,0.3479,0.2106,1907,970,162,353,"[[1907, 970], [162, 353]]",6.42
+Experiment A - All Features,Random Forest,15,0.6984,0.2724,0.5903,0.7178,0.3728,0.7109,0.316,0.204,2065,812,211,304,"[[2065, 812], [211, 304]]",3.735
+Experiment A - All Features,SVM,15,0.8482,0.0,0.0,1.0,0.0,0.7257,0.3074,0.1176,2877,0,515,0,"[[2877, 0], [515, 0]]",6.598
+Experiment A - All Features,XGBoost,15,0.658,0.254,0.6466,0.6601,0.3647,0.7155,0.3236,0.2039,1899,978,182,333,"[[1899, 978], [182, 333]]",5.551
+Experiment B - GA Selected,Logistic Regression,6,0.6745,0.2701,0.6718,0.675,0.3853,0.732,0.3512,0.2086,1942,935,169,346,"[[1942, 935], [169, 346]]",0.114
+Experiment B - GA Selected,Random Forest,6,0.6601,0.2572,0.6563,0.6608,0.3696,0.718,0.3304,0.2037,1901,976,177,338,"[[1901, 976], [177, 338]]",2.994
+Experiment B - GA Selected,SVM,6,0.8482,0.0,0.0,1.0,0.0,0.7193,0.2874,0.1183,2877,0,515,0,"[[2877, 0], [515, 0]]",5.245
+Experiment B - GA Selected,XGBoost,6,0.6627,0.2586,0.6544,0.6642,0.3707,0.7177,0.3311,0.2056,1911,966,178,337,"[[1911, 966], [178, 337]]",5.273
